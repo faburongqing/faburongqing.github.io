@@ -33,7 +33,7 @@
 /* 子菜单横向展示 */
 #nav .menus_items .menus_item:hover .menus_item_child {
   display: flex !important;
-  left: -159px;
+  left: -183px;
 }
 /* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改   列表间距 */
 #menus > div.menus_items > div:nth-child(2) > ul {
@@ -427,6 +427,11 @@
   --anzhiyu-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
   --anzhiyu-card-border: #42444a;
 }
+
+body {
+  color: var(--anzhiyu-fontcolor);
+}
+
 
 /* 波浪css */
 .main-hero-waves-area {
