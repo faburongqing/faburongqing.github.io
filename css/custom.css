@@ -33,17 +33,17 @@
 /* 子菜单横向展示 */
 #nav .menus_items .menus_item:hover .menus_item_child {
   display: flex !important;
-  left: -183px;
+  left: -175px;
 }
-/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改   列表间距 */
+/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改   列表间距 往小调是右 */
 #menus > div.menus_items > div:nth-child(2) > ul {
-  left: -80px !important;
+  left: -79.5px !important;
 }
 #menus > div.menus_items > div:nth-child(4) > ul {
-  left: -148px !important;
+  left: -100px !important;
 }
 #menus > div.menus_items > div:nth-child(5) > ul {
-  left: -129px !important;
+  left: -130px !important;
 }
 
 /* 夜间模式菜单栏发光字 */
